@@ -1,0 +1,60 @@
+<html>
+<head>
+<style>
+header {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding:5px;
+	}
+nav{
+	line-height:30px;
+	background-color:#eeeeee;
+	height:300px;
+	width:100px;
+	float:left;
+	padding:5px;
+}
+section{
+	width:350px;
+	float:left;
+	padding:10px;
+}
+footer{
+	background-color:black;
+	color:white;
+	clear:both;
+	text-align:center;
+	padding:5px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1> Create Task</h1>
+</header>
+
+<nav>
+<a href="/webproject-ex-0305-Yule/insert_yule.html">Create Task</a> <br>
+</nav>
+
+<section>
+	<h1>User Input</h1>
+
+	<form action="InsertYule" method="POST">
+
+		Task: <input type="text" name="taskName" ><br />
+		Category: <input type="text" name="category" ><br />
+		Deadline: <input type="text" name="deadline" ><br />
+		Priority: <input type="text" name="priority" ><br />
+		<input type="submit" value="Submit" />
+	</form>
+</section>
+
+<footer>
+Goblin Smite
+</footer>
+</body>
+</html>
